@@ -1,0 +1,32 @@
+digraph G {
+label="Math expression: 2+2, val = 4"
+1 [label="expr"]
+1->2
+2 [label="term"]
+2->3
+3 [label="factor"]
+3->4
+4 [label="2"]
+2->5
+5 [label="termS"]
+5->6
+6 [label="eps"]
+1->7
+7 [label="exprS"]
+7->8
+8 [label="+"]
+7->9
+9 [label="term"]
+9->10
+10 [label="factor"]
+10->11
+11 [label="2"]
+9->12
+12 [label="termS"]
+12->13
+13 [label="eps"]
+7->14
+14 [label="exprS"]
+14->15
+15 [label="eps"]
+}
